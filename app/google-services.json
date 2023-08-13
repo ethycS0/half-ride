@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "897601855677",
+    "firebase_url": "https://half-ride-12-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "half-ride-12",
+    "storage_bucket": "half-ride-12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897601855677:android:1b31b6cb0cb967e923d7d4",
+        "android_client_info": {
+          "package_name": "com.arjun.halfride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897601855677-rtaea71l0nksihm6mjtl0afvp41gfep5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arjun.halfride",
+            "certificate_hash": "f029bea5c737a083e8b30652fc31fb8fef14776a"
+          }
+        },
+        {
+          "client_id": "897601855677-v0voliso9djmq6fd7p4rfdb7arp7sml7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPi0JrRLs2bynD0VOSX-f3ekamH9vfkJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897601855677-v0voliso9djmq6fd7p4rfdb7arp7sml7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

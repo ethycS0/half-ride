@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.EditProfileActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:fontFamily="@font/header"
+            android:textSize="65dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:layout_gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/edit_number"
+                android:layout_width="290dp"
+                android:fontFamily="@font/main"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:hint="Enter Number"
+                android:inputType="number"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_location"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:fontFamily="@font/main"
+            android:layout_gravity="center_horizontal"
+            android:drawableStart="@drawable/baseline_add_location_24"
+            android:layout_marginTop="300dp"
+            android:hint=" Change Your Location">
+
+            <AutoCompleteTextView
+                android:id="@+id/acl_location"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/main"
+                android:drawableStart="@drawable/baseline_add_location_24"
+                android:layout_weight="1"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_organisation"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="290dp"
+            android:fontFamily="@font/main"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="380dp"
+            android:layout_marginBottom="40dp"
+            android:drawableStart="@drawable/baseline_location_city_24"
+            android:hint=" Change Your Organisation">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_organisation"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/main"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/baseline_location_city_24"
+                android:layout_weight="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="460dp">
+
+            <EditText
+                android:id="@+id/edit_description"
+                android:layout_width="350dp"
+                android:layout_height="135dp"
+                android:gravity="fill_horizontal"
+                android:fontFamily="@font/main"
+                android:hint="Description (Enter preferred mode of travel and commute buddy preference. Also enter info about yourself)"
+                android:textSize="13dp"
+                tools:ignore="TextSizeCheck" />
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="600dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/main"
+            android:text="Confirm" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
